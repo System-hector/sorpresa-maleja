@@ -64,14 +64,14 @@ body {
 .otters-container {
     position: absolute;
     width: 100%;
-    height: 60px;
-    bottom: -10px;
+    bottom: 20px; /* SUBE las nutrias */
     left: 0;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     pointer-events: none;
 }
+
 
 .otter {
     font-size: 2.6rem;
