@@ -15,7 +15,8 @@ function openBox() {
         let otter = document.createElement("div");
         otter.classList.add("otter");
         otter.innerHTML = emoji;
-        otter.style.animationDelay = `${i * 0.3}s`;
+        otter.style.animation = `popUp 1.4s ${i * 0.25}s forwards`;
+
         container.appendChild(otter);
     });
 }
