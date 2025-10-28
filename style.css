@@ -1,13 +1,14 @@
 
 body {
-    background: #ffd6e7;
-    height: 100vh;
     margin: 0;
+    background-color: #ffd4e9;
+    font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Arial', sans-serif;
-    overflow: hidden;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    min-height: 100vh; /* Ocupa toda la pantalla */
+    text-align: center;
 }
 
 .center {
